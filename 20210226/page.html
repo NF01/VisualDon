@@ -26,15 +26,17 @@ g{
     animation-duration: 4s;
     animation-name: move;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 
 }
 
 @keyframes move {
   from {
-    cy: 100
+    stroke-width: 100
   }
   to {
-    cy: 300
+  stroke-width: 300
   }
 }
 
@@ -46,7 +48,7 @@ g{
 </style>
 
 <body>
-    <svg width="1350" height="600">
+    <svg width="1450" height="600">
         <g transform="translate(50 100)">
         <g transform="translate(0 20)">
          <g transform="translate(10 10)">
@@ -73,8 +75,8 @@ g{
           <rect y="175" width="200" height="25" />
         </g>
 
-        <g  id="monO" transform="translate(1020 10)" fill="none" stroke-width="30">
-          <circle cx="100" cy="100" r="100"> </circle>
+        <g  transform="translate(1020 10)" fill="none" stroke-width="30">
+          <circle id="monO" cx="100" cy="100" r="100"></circle>
         </g>
         </g>
         
@@ -88,18 +90,18 @@ g{
 <script>
 
 
-    const monO= document.getElementById("monO")
+    // const monO= document.getElementById("monO")
 
-    monO.addEventListener("click", evt =>{
-        console.log(9)
-       monO.setAttribute('fill', "turquoise")
+    // monO.addEventListener("click", evt =>{
+    //     console.log(9)
+    //    monO.setAttribute('fill', "turquoise")
 
         
     
 
 
 
-    })
+    // })
 
 </script>
 
