@@ -10,7 +10,7 @@
   2. **choix des données pour faire passer le message:**
 
      Passez un message humoristique en faisant voir l'archipel en vert (=pas beaucoup de vote pour Clinton)
-     Choix de mettre en couleur l'archipelpour un impact visuel fort
+     Choix de mettre en couleur l'archipel pour un impact visuel fort
 
      
 
@@ -24,7 +24,7 @@
 
   1. **intention des auteurs:**
 
-     Rendre une infographie annuelle du type de trafic d leur site web et des tendances associées
+     Rendre une infographie annuelle du type de trafic de leur site web et des tendances associées
 
      
 
