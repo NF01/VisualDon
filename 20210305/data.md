@@ -6,7 +6,7 @@
 
   1. Copier-coller les données brutes dans un fichier json
 
-  2. Filtrer les données par canton et par "Scenario2_RoofsOnly_PotentialSolarHeat_GWh" (= au Giga Watt Heure de puissance produit par le panneau solaire pour de la chaleur sur les toits seulement)
+  2. Filtrer les données par canton (Vaud) et par "Scenario2_RoofsOnly_PotentialSolarHeat_GWh" (>30)(= au Giga Watt Heure de puissance produit par le panneau solaire pour de la chaleur sur les toits seulement)
 
   3. Exclusion des clés de l'objet json inutile à nos donnée (exemple le canton déjà trier)
 
