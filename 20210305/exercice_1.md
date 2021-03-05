@@ -37,4 +37,4 @@
 
   1. **omissions:**
 
-     aucune importante
+     ceux qui ne s'enregistre pas
