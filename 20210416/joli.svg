@@ -1,0 +1,66 @@
+<svg width="1350" height="600"  xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<pattern id="tect" patternUnits="userSpaceOnUse" width="20" height="20">
+<path d="M 0,20 l 20,-20 M -5,5 l 10,-10 M 15,25 l 10,-10" stroke-width="0.8" shape-rendering="auto" stroke="red" stroke-linecap="square"></path>
+</pattern>
+
+ <filter id="noise1">
+    <feTurbulence baseFrequency="0.5"/>
+    <feDisplacementMap in="SourceGraphic" scale="10"/>
+   </filter>
+
+    <filter id="noise2">
+    <feTurbulence baseFrequency="0.5"/>
+    <feDisplacementMap in="SourceGraphic" scale="50"/>
+   </filter>
+
+</defs>
+
+
+
+
+
+<g transform="translate(50 100)">
+<g transform="translate(0 20)">
+ <g transform="translate(10 10)" fill="url(#tect)">
+  <rect width="50" height="200" />
+  <rect x="1" y="75" width="200" height="50" />
+  <rect x="200" y="0" width="50" height="200" />
+</g>
+
+<g transform="translate(300 10)" fill="url(#tect)">
+  <rect width="50" height="200" />
+  <rect width="200" height="25" />
+  <rect y="88" width="200" height="25" />
+  <rect y="175" width="200" height="25" />
+</g>
+
+<g transform="translate(540 10)" fill="url(#tect)">
+  <rect width="50" height="200" />
+  <rect y="175" width="200" height="25" />
+</g>
+
+<g transform="translate(780 10)" fill="url(#tect)">
+  <rect width="50" height="200" />
+  <rect y="175" width="200" height="25" />
+</g>
+
+<g transform="translate(1020 10)" fill="none" stroke="red" stroke-width="30">
+  <circle opacity="0.7" filter="url(#noise1)" cx="100" cy="100" r="100"> </circle>
+</g>
+
+
+
+</g>
+
+
+
+ <g transform="translate(204 150)" fill="turquoise" opacity="0.5">
+  <text x="1" y="300" font-size="450">World</text>
+  </g>
+
+  </g>
+
+</svg>
