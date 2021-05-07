@@ -6,4 +6,6 @@ Décision de faire le travail en groupe de 2.
 
 Décision de faire le travail sur les figurines et la puissance de celle-ci de jeux "Dofus"
 
-Premiers pas sur l'écriture du "scénario" global de l'hitoire de nos données
+Premiers pas sur l'écriture du "scénario" global de l'histoire de nos données
+
+Projet terminé reste à ajouter le readme.md
